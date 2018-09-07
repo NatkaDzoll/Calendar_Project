@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ежедневник</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/calendar.css">
+<!-- 	<script src='http://fe.it-academy.by/JQ/jquery.js'></script> -->
+	
+</head>
+<body>
+<div id="calendar-box">
+	<div id="header">
+		<div class="menu">
+			<div class="left-buttons">
+				<button type="button" id="back-but" title="Назад" class = "back-button"><span class="icon-before" "></span></button>
+				<button type="button" id="next-but" title="Далее" class = "next-button"><span class="icon-after"></span></button>
+				<button type="button" id="today" title="Текущий месяц">Сегодня</button>
+			</div>
+				<div class="center-date">
+				<h2 id="month-date"></h2>
+			</div>
+			<div class="right-buttons">
+				<button type="button" title="Показать весь месяц" id = "month-button">Весь месяц</button>
+				<button type="button" title="Показать текущую неделю" id = "week-button">Неделя</button>
+				<button type="button" title="Показать день" id = "day-button">День</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="view-container"></div>
+</div>
+
+<script src="main_2.js"></script>
+
+</body>
+</html>

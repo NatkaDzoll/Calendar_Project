@@ -1,0 +1,123 @@
+h2 {
+	text-align:left;
+	font-weight:normal;
+	color:white;
+	padding:0;
+	margin: 0;
+	font-style:normal
+}
+table {
+	margin: auto;
+	width:100%;
+}
+.dayName {
+	background-color: gray;
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.day {
+	margin: -1px;
+	width: 100%;
+	position: absolute;
+	border-bottom: 1px dotted  white;
+}
+.now-date{
+	background-color: #cd9c9c;
+}
+tr {
+	background-color: #1122;
+	height: 80px;
+	text-align: right;
+
+}
+td {
+	vertical-align: top;
+	position: relative;
+	width: 14%
+}
+
+.menu, #view-container {
+	margin: auto;
+	padding:  5px;
+	text-align:center;
+	margin-bottom: 1px;
+	width:80%;
+}
+
+#view-container {
+	background-color: #1111;
+}
+#week, #day {
+	height: 406px;
+}
+.menu {
+	background-color: #333;
+	height: 40px;
+}
+
+.menu button {
+	float: left;
+    height: 30px;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* ----------------------- КНОПКИ СЛЕВА --- */
+.left-buttons {
+	float: left;
+	left: 5px;
+	position: relative;
+		margin: 5px 0 5px -1px;
+
+}
+.left-buttons button{
+	overflow: hidden;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+	}
+/* ---------------------стрелка назад (месяц)*/
+.icon-before:after{
+	content: "\25c0";
+}
+/* ---------------------стрелка вперед (месяц)*/
+.icon-after:after{ 
+	content: "\25b6";
+}
+
+/* --------------------------- ДАТА ------- */
+.center-date {
+	margin: 0 10px 0 10px;
+	display: inline-block;
+	line-height: 35px;
+}
+
+/* ---------------------- КНОПКИ СПРАВА --- */
+.right-buttons {
+	float: right;
+	right: 5px;
+	position: relative;
+	margin: 5px 0 5px -1px;
+}
+.right-buttons button {
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}	
+
+#month-button {
+	background-image: url(../icons/calendar-t31.png);
+}
+#week-button {
+	background-image: url(../icons/calendar-t7.png);
+}
+#day-button {
+	background-image: url(../icons/calendar-t1.png);
+}
+
